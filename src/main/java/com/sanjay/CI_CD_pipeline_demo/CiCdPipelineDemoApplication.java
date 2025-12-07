@@ -11,7 +11,8 @@ public class CiCdPipelineDemoApplication {
 
     @GetMapping("/")
     public String home() {
-        return "Hello from sanjay's Spring Boot !";
+        return "Hello from sanjay's Spring Boot !" +
+                "Amazing task partnr";
     }
 
 	public static void main(String[] args) {
